@@ -1,4 +1,4 @@
-# MacOS SetUp
+# Mac-SetUp
 
 本文档主要目的是如何快速在新的MacBook或iMac上配置好开发、工作环境。包括如下：
 
@@ -38,22 +38,22 @@ https://github.com/Fndroid/clash_for_windows_pk
 
 ## 开发、工作、学习必备软件&插件
 
-### iTerm2 终端
+### iTerm2 终端
 
-#### 安装
+#### 安装 iTerm2
 
 https://iterm2.com/
 
-#### 迁移配置（可选）
+#### iTerm2 迁移配置（可选）
 
 - 原电脑：点击 `preferences` -> 底部点击Other Actions -> Save Profile as JSON
 - 新电脑：点击 `preferences` -> 底部点击Other Actions -> Import JSON Profiles
 
-#### 使用 zsh 来强化终端
+#### 使用 zsh 来强化 iTerm2 终端
 
 ##### 安装 zsh
 
-# 尽量在命令行添加代理去安装
+> 尽量在命令行添加代理去安装
 
 https://ohmyz.sh/#install
 
@@ -95,14 +95,18 @@ source ~/.zshrc
 ##### 使用 [powerlevel10k](https://github.com/romkatv/powerlevel10k) 美化
 
 1. 安装 powerlevel10k
+
+```
 git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
 
 2. 下载安装字体
-[MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
-[MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
-[MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
-[MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
+
+- [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
+- [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
+- [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
+- [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 
 3. Type `p10k configure` or Restart zsh
 
