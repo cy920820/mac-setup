@@ -33,7 +33,7 @@ https://www.google.com/intl/zh-CN/chrome/
 
 ### Clash 科学上网工具
 
-https://github.com/Fndroid/clash_for_windows_pk
+https://github.com/Fndroid/clash_for_windows_pkg
 
 
 ## 开发、工作、学习必备软件&插件
