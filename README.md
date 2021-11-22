@@ -1,4 +1,4 @@
-# MacOS SetUp
+# MacOS SetUp
 
 本文档主要目的是如何快速在新的MacBook或iMac上配置好开发、工作环境。包括如下：
 
@@ -38,7 +38,7 @@ https://github.com/Fndroid/clash_for_windows_pk
 
 ## 开发、工作、学习必备软件&插件
 
-### iTerm2 终端
+### iTerm2 终端
 
 #### 安装
 
@@ -217,6 +217,33 @@ https://www.charlesproxy.com/
 
 https://github.com/justinfrankel/licecap
 
+
+#### Typora
+
+https://typora.io/
+
 ### Chrome 浏览器插件
 
 ... 待更新
+
+
+### 多媒体工具
+
+#### IINA
+
+https://iina.io/
+
+
+#### HandBrake
+
+https://github.com/HandBrake/HandBrake
+
+
+#### Kodi
+
+https://github.com/xbmc
+
+
+#### kantu
+
+https://kantu.qq.com/
