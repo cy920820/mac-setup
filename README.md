@@ -38,16 +38,42 @@ https://github.com/Fndroid/clash_for_windows_pkg
 
 ## 开发、工作、学习必备软件&插件
 
-### iTerm2 终端
+### Terminals
 
-#### 安装 iTerm2
+> 终端是一个码农最重要的武器之一。
+#### iTerm2 终端
+
+##### 安装 iTerm2
 
 https://iterm2.com/
 
-#### iTerm2 迁移配置（可选）
+##### iTerm2 迁移配置（可选）
 
 - 原电脑：点击 `preferences` -> 底部点击Other Actions -> Save Profile as JSON
 - 新电脑：点击 `preferences` -> 底部点击Other Actions -> Import JSON Profiles
+
+#### Warp 终端 - 重新定义终端
+
+##### 安装 Warp
+
+- https://www.warp.dev/
+- `brew install --cask warp`
+
+##### Feature
+
+- 开箱即用，无需任何配置
+- 更加便捷的智能化提示
+- 智能记忆，会记录上一次执行的命令
+- 区域选择
+- 历史命令提示
+- 命令导航
+- AI
+- 团队协作
+
+##### 弊端
+
+- 暂时仅支持 Mac
+- 需要登录使用
 
 #### 使用 zsh 来强化 iTerm2 终端
 
@@ -92,7 +118,7 @@ alias git-log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cre
 source ~/.zshrc
 ```
 
-##### 使用 [powerlevel10k](https://github.com/romkatv/powerlevel10k) 美化
+#### 使用 [powerlevel10k](https://github.com/romkatv/powerlevel10k) 美化
 
 1. 安装 powerlevel10k
 
@@ -118,7 +144,7 @@ echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-国内：
+国内（包含镜像源的配置）：
 
 `/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"`
 
@@ -165,6 +191,12 @@ brew update
 ```
 git config --global user.name "cy920820"
 git config --global user.email "cuiyang673308817@gmail.com"
+```
+
+#### 其它配置
+
+```
+git config --global pull.rebase true
 ```
 
 ### node 
